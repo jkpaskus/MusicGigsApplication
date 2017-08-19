@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNet.Identity;
 using MusicGigApplication.Models;
 using MusicGigApplication.ViewModels;
-using System;
 using System.Linq;
 using System.Web.Mvc;
 
@@ -32,10 +31,16 @@ namespace MusicGigApplication.Controllers
         {
             //Read artist and genre from database.
 
+
+            if (!ModelState.IsValid)
+            {
+                viewModel.Genres = _context.Genres.ToList();
+                return View("Create", viewModel);
+            }
             var gig = new Gig
             {
                 ArtistId = User.Identity.GetUserId(),
-                DateTime = viewModel.DateTime,
+                DateTime = viewModel.GetDateTime(),
                 GenreId = viewModel.Genre,
                 Venue = viewModel.Venue
             };

@@ -86,3 +86,4 @@ C:\Users\HP\Desktop\Visual Studio\MusicGigApplication\MusicGigApplication\obj\De
 C:\Users\HP\Desktop\Visual Studio\MusicGigApplication\MusicGigApplication\obj\Debug\MusicGigApplication.Migrations.OverrideConventionsForGigsAndGenres.resources
 C:\Users\HP\Desktop\Visual Studio\MusicGigApplication\MusicGigApplication\obj\Debug\MusicGigApplication.Migrations.PopulateGenresTable.resources
 C:\Users\HP\Desktop\Visual Studio\MusicGigApplication\MusicGigApplication\obj\Debug\MusicGigApplication.Migrations.AddForeignKeyPropertiesToGig.resources
+C:\Users\HP\Desktop\Visual Studio\MusicGigApplication\MusicGigApplication\obj\Debug\MusicGigApplication.Migrations.AddNameToApplicationUser.resources
